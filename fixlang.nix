@@ -25,7 +25,11 @@ rustPlatform.buildRustPackage rec {
     pkg-config
     llvmPackages_17.libllvm
   ];
-  propagatedBuildInputs = [ libffi libtinfo libxml2 ];
+  propagatedBuildInputs = [
+    libffi
+    libtinfo
+    libxml2
+  ];
   buildInputs = [ openssl ];
   doCheck = false;
 }
