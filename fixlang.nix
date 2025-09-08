@@ -17,7 +17,7 @@ rustPlatform.buildRustPackage rec {
     repo = pname;
     tag = version;
     leaveDotGit = true;
-    sha256 = "sha256-CQ1UrWL2ttDEaV/kG6d0YQrvIwuY15OeCO0xKAtb+JU=";
+    sha256 = "sha256-jTlf4UD+MrHJJ8qdAnwLhKOemtvLsBeL77iJ5ef7bNo=";
   };
   cargoHash = "sha256-EGs/eq8SgGGT29Ch9xrTnbK3tAkCKplVvnkEFxVJajA=";
   nativeBuildInputs = [
